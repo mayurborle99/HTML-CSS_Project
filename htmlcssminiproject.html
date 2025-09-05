@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="responsive_style.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Sticky Header + Nav -->
+    <header class="surface">
+        <div class="wrap nav">
+            <div class="brand">
+                <div class="logo" aria-hidden="true"></div>
+                <span>Seven Mentor
+                    <span class="muted">, Pune</span>
+                </span>
+            </div>
+
+            <input type="checkbox" id="nav-toggle" aria-label="Toggle Menu" />
+            <label for="nav-toggle" class="hamb" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav aria-label="Primary Navigation">
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="cta">
+                <a href="#pricing" class="btn ghost">View Plans</a>
+                <a href="#contact" class="btn primary">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="wrap">
+            <div>
+                <div class="eyebrow">Only HTML and CSS</div>
+                <h1>Responsive site with <span
+                        style="background: linear-gradient(90deg, var(--brand), var(--brand-2)); -webkit-background-clip: text; background-clip: text; color: transparent;">My
+                        Project Title</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde excepturi animi consectetur incidunt
+                    quis mollitia? Quo reiciendis numquam nihil culpa et molestias, blanditiis quia totam officiis iure
+                    necessitatibus eveniet porro?</p>
+
+                <div class="actions">
+                    <a href="#gallery" class="btn primary">Explore Gallery</a>
+                    <a href="#features" class="btn ghost">See Features</a>
+                </div>
+            </div>
+            <div class="hero-visual surface">
+                <span class="badge">Live Demo</span>
+                <div class="shape" aria-hidden="true"></div>
+            </div>
+        </div>
+    </section>
+
+    <main id="main">
+
+        <!-- Features -->
+        <section id="features" class="features wrap">
+            <div class="section-head">
+                <h2>Feature Highlights</h2>
+                <p class="muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, minima?</p>
+            </div>
+
+            <div class="grid">
+                <article class="feature surface">
+                    <div class="icon" aria-hidden="true">#</div>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, in.</p>
+                </article>
+                <article class="feature surface">
+                    <div class="icon" aria-hidden="true">#</div>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, in.</p>
+                </article>
+                <article class="feature surface">
+                    <div class="icon" aria-hidden="true">#</div>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, in.</p>
+                </article>
+                <article class="feature surface">
+                    <div class="icon" aria-hidden="true">#</div>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, in.</p>
+                </article>
+                <article class="feature surface">
+                    <div class="icon" aria-hidden="true">#</div>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, in.</p>
+                </article>
+                <article class="feature surface">
+                    <div class="icon" aria-hidden="true">#</div>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, in.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section id="gallery" class="gallery wrap">
+            <div class="section-head">
+                <h2>Responsive Gallery</h2>
+                <p class="muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus, nobis.</p>
+            </div>
+            <div class="gallery-grid">
+                <figure class="tile "><img src="https://picsum.photos/seed/1/800/600" alt="Gallery Item" />
+                </figure>
+                <figure class="tile"><img src="https://picsum.photos/seed/2/800/600" alt="Gallery Item" /></figure>
+                <figure class="tile"><img src="https://picsum.photos/seed/3/800/600" alt="Gallery Item" />
+                </figure>
+                <figure class="tile"><img src="https://picsum.photos/seed/4/800/600" alt="Gallery Item" /></figure>
+                <figure class="tile"><img src="https://picsum.photos/seed/5/800/600" alt="Gallery Item" />
+                </figure>
+                <figure class="tile"><img src="https://picsum.photos/seed/6/800/600" alt="Gallery Item" /></figure>
+            </div>
+        </section>
+
+        <!-- Pricing Card -->
+        <section id="pricing" class="pricing wrap">
+            <div class="section-head">
+                <h2>Pricing</h2>
+                <p class="muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, ut.</p>
+            </div>
+            <div class="cards">
+                <article class="card">
+                    <h3>Starter</h3>
+                    <div class="price">₹0<span class="muted">/mo</span></div>
+                    <div class="list">
+                        <div>&#10004 1 project</div>
+                        <div>&#10004 Community support</div>
+                        <div>&#10004 Basic components</div>
+                    </div>
+                    <a href="#contact" class="btn ghost">Choose Starter</a>
+                </article>
+                <article class="card popular">
+                    <h3>Pro</h3>
+                    <div class="price">₹200<span class="muted">/mo</span></div>
+                    <div class="list">
+                        <div>&#10004 10 project</div>
+                        <div>&#10004 Email support</div>
+                        <div>&#10004 Advanced components</div>
+                    </div>
+                    <a href="#contact" class="btn primary">Choose Pro</a>
+                </article>
+                <article class="card">
+                    <h3>Team</h3>
+                    <div class="price">₹400<span class="muted">/mo</span></div>
+                    <div class="list">
+                        <div>&#10004 Unlimited projects</div>
+                        <div>&#10004 Priority support</div>
+                        <div>&#10004 Collaboration tools</div>
+                    </div>
+                    <a href="#contact" class="btn ghost">Choose Team</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Testimonials slider -->
+        <section id="testimonials" class="testimonials wrap">
+            <div class="section-head">
+                <h2>What People Say</h2>
+                <p class="muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, corrupti.</p>
+            </div>
+            <div class="slider surface">
+                <input type="radio" name="t" id="t-1" checked>
+                <input type="radio" name="t" id="t-2">
+                <input type="radio" name="t" id="t-3">
+
+                <!-- slides -->
+                <div class="slides">
+                    <div class="slide">
+                        <blockquote>
+                            <p style="font-size: var(--step-1);">"Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit. Doloribus, pariatur?"</p>
+                            <footer class="muted">Lorem ipsum dolor sit.</footer>
+                        </blockquote>
+                    </div>
+                    <div class="slide">
+                        <blockquote>
+                            <p style="font-size: var(--step-1);">"Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit. Doloribus, pariatur?"</p>
+                            <footer class="muted">Lorem ipsum dolor sit.</footer>
+                        </blockquote>
+                    </div>
+                    <div class="slide">
+                        <blockquote>
+                            <p style="font-size: var(--step-1);">"Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit. Doloribus, pariatur?"</p>
+                            <footer class="muted">Lorem ipsum dolor sit.</footer>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <!-- Dots -->
+                <div class="controls" aria-label="Slide controls">
+                    <label for="t-1" title="Slide 1"></label>
+                    <label for="t-2" title="Slide 2"></label>
+                    <label for="t-3" title="Slide 3"></label>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact" class="contact wrap">
+            <div class="section-head">
+                <h2>Contact</h2>
+                <p class="muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, rem?</p>
+            </div>
+            <form action="#" class="form surface" method="post">
+                <div class="field">
+                    <label for="fname">First Name : </label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter first name" required>
+                    <!-- <div class="help">Required</div> -->
+                </div>
+                <div class="field">
+                    <label for="lname">Last Name : </label>
+                    <input type="text" id="lname" name="lname" placeholder="Enter last name" required>
+                    <!-- <div class="help">Required</div> -->
+                </div>
+                <div class="field full">
+                    <label for="email">Email : </label>
+                    <input type="email" id="email" name="email" placeholder="Enter email here" required>
+                </div>
+                <div class="field full">
+                    <label for="topic">Topic : </label>
+                    <select name="topic" id="topic">
+                        <option value="general">General</option>
+                        <option value="pricing">Pricing</option>
+                        <option value="support">Support</option>
+                    </select>
+                </div>
+                <div class="field full">
+                    <label for="msg">Message : </label>
+                    <textarea id="msg" name="msg" placeholder="Write your message" rows="5"></textarea>
+                </div>
+                <div class="full"
+                    style="display: flex; gap: .75rem; align-items: center; justify-content: flex-end; padding: .5rem 0 1rem; padding-left: 1rem;">
+                    <button class="btn ghost" type="reset">Reset</button>
+                    <button class="btn primary" type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer class="abc">
+            <div class="wrap foot">
+                <small>&copy; <span id="y">2025. </span>Seven Mentor, Pune</small>
+                <nav aria-label="Footer">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Status</a>
+                </nav>
+            </div>
+        </footer>
+</body>
+
+</html>
